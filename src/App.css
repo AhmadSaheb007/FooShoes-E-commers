@@ -1,0 +1,128 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,900;1,300&display=swap');
+:root {
+    --peast-green: #57C59F !important;
+    --brown-black: #2E2E2E !important;
+  }
+
+.bg-brown-black{
+    background-color: var(--brown-black) !important;
+}
+
+.text-peast-greenn{
+    color: #57C59F;
+}
+
+hr{
+    font-size: 5em;
+    width: 7rem;
+    
+}
+
+.bg-peast-greenn{
+    background-color: #57C59F !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headerBg{
+    background-image: url(./assets/img/HomeBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.font-sm{
+    font-size: 12px;
+}
+
+.sale-img{
+    position: relative;
+}
+.onsale-btn{
+    position: absolute;
+    top: 5rem;
+    left: 4rem;
+    transition: 0.5s;
+}
+
+.onsale-btn:hover{
+    transform: scale(1.1);
+}
+
+.product-bg{
+    background-color: #EBE7DF !important;
+}
+
+.product-box{
+    text-align: center;
+    position: relative;
+}
+
+.product-name{
+    display: none;
+}
+
+.purchas{
+    display: none;
+}
+
+.item-hover{
+    border-radius: 10rem;
+    transition: 0.5s;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.6) !important;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    
+
+}
+
+.item-hover:hover{
+    transform: scale(1.1);
+}
+
+.accordion-body{
+    background-color: #2E2E2E;
+    color: aliceblue;
+    font-size: 15px;
+    transition: 0.5s;
+    
+}
+
+.accordion-body:hover{
+
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.contactBg{
+    height: 80vh;
+    background-image: url(./assets/img/developerPic.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.bg-frosted{
+    background-color: rgba(58, 58, 58, 0.5333);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    
+}
+
+.product-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
