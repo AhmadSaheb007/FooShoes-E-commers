@@ -13,7 +13,7 @@ const Product = (props) => {
         <div className="bg-frosted product-icon my-3">
           <div className="row d-flex justify-content-between">
             <div className="col-lg-2 py-2"> 
-              <a href=""><FaEye className="text-light fs-3" /></a>
+              <a href="/productDetails"><FaEye className="text-light fs-3" /></a>
             </div>
 
             <div className="col-lg-2 py-2"> 

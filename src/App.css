@@ -126,3 +126,7 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
+.cart-button:hover{
+    transform: scale(1.2);
+}

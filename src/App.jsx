@@ -11,6 +11,7 @@ import "./index.css";
 import About from "./components/pages/About";
 import Header from "./components/inc/Header";
 import ProductsPage from './components/pages/ProductsPage';
+import ProductDetails from './components/inc/ProductDetails';
 
 function App() {
   const router = createBrowserRouter([
@@ -31,6 +32,11 @@ function App() {
     {
       path: "/contact",
       element: <Contact />,
+    },
+
+    {
+      path: "/productDetails",
+      element: <ProductDetails />,
     },
   ]);
 
