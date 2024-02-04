@@ -1,14 +1,16 @@
 import React from 'react';
 import Counter from './Counter';
+import ImageCarousel from './ImageCarousel';
 
-const ProductDetails = () => {
+const ProductDetails = (props) => {
     return (
         <div>
             <div className="bg-brown-black text-light">
                 <div className="container">
                     <div className="row mx-auto py-5">
                         <div className="col-lg-6">
-                            <img className='img-responsive rounded-2 w-100' src="/src/assets/img/HomeBlackShoe.png" alt="" />
+                            {/* <img className='img-responsive rounded-2 w-100' src="/src/assets/img/HomeBlackShoe.png" alt="" /> */}
+                            <ImageCarousel/>
                         </div>
                         <div className="col-lg-4 text-start">
                             <h1 className="fw-meduim">Home Black Shoe</h1>
@@ -19,7 +21,7 @@ const ProductDetails = () => {
                             <div className="row">
                                 <div className="col-lg-12 d-flex">
                                     <Counter/>
-                                    <button id='addToCartBtn' className='btn btn-dark text-dark px-4 py-2 rounded-2 bg-peast-greenn  mx-2'>Add to Cart</button>
+                                    <button className='btn btn-dark text-dark px-4 py-2 rounded-2 bg-peast-greenn addToCartBtn mx-2'>Add to Cart</button>
                                     
                                 </div>
                             </div>
