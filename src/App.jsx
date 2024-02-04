@@ -6,12 +6,13 @@ import Navber from "./components/inc/Navber";
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import * as React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import "./index.css";
 import About from "./components/pages/About";
 import Header from "./components/inc/Header";
 import ProductsPage from './components/pages/ProductsPage';
 import ProductDetails from './components/inc/ProductDetails';
+import NewNav from "./components/inc/NewNav";
 
 function App() {
   const router = createBrowserRouter([

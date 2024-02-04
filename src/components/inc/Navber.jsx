@@ -1,6 +1,5 @@
 import React from 'react';
-import { TbChartDots3 } from "react-icons/tb";
-// import Link from 'react-router-dom';
+
 function Navber(){
     return(
         <div>
