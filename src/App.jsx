@@ -13,6 +13,8 @@ import Header from "./components/inc/Header";
 import ProductsPage from './components/pages/ProductsPage';
 import ProductDetails from './components/inc/ProductDetails';
 import NewNav from "./components/inc/NewNav";
+import Login from './components/pages/Login';
+import Signup from './components/pages/Signup';
 
 function App() {
   const router = createBrowserRouter([
@@ -38,6 +40,16 @@ function App() {
     {
       path: "/productDetails",
       element: <ProductDetails />,
+    },
+
+    {
+      path: "/login",
+      element: <Login />,
+    },
+
+    {
+      path: "/signup",
+      element: <Signup />,
     },
   ]);
 

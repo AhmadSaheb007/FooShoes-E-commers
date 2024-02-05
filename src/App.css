@@ -13,6 +13,10 @@
     color: #57C59F;
 }
 
+.text-brown-black{
+    color: var(--brown-black) !important;
+}
+
 hr{
     font-size: 5em;
     width: 7rem;
@@ -141,4 +145,5 @@ hr{
 .preview-img{
     width: 7rem !important;
     padding-bottom: 5rem !important;
+    background-color: transparent !important;
 }

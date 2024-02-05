@@ -1,6 +1,6 @@
 import React from "react";
 
-const ImageCarousel = () => {
+const ImageCarousel = (props) => {
   return (
     <div>
       <div className="container">
@@ -19,31 +19,31 @@ const ImageCarousel = () => {
             className="active preview-img"
             aria-current="true"
             aria-label="Slide 1"
-          ><img src="/src/assets/img/HomeBlackShoe.png" className="d-block w-100 border-1 rounded-3 border border-secondary" alt="..." /></button>
+          ><img src={props.productImage1} className="d-block w-100 border-1 rounded-3 border border-secondary" alt="..." /></button>
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="1"
             aria-label="Slide 2"
             className="preview-img"
-          ><img src="/src/assets/img/HomeBuyProduct.png" className="d-block w-100 border-1 rounded-3 border border-secondary" alt="..." /></button>
+          ><img src={props.productImage2} className="d-block w-100 border-1 rounded-3 border border-secondary" alt="..." /></button>
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="2"
             aria-label="Slide 3"
             className="preview-img"
-          ><img src="/src/assets/img/HomeBlackShoe.png" className="d-block w-100 border-1 rounded-3 border border-secondary" alt="..." /></button>
+          ><img src={props.productImage3} className="d-block w-100 border-1 rounded-3 border border-secondary" alt="..." /></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/src/assets/img/HomeBlackShoe.png" className="d-block w-100 rounded-3" alt="..." />
+            <img src={props.productImage1}className="d-block w-100 rounded-3" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="/src/assets/img/HomeBlackShoe.png" className="d-block w-100 rounded-3" alt="..." />
+            <img src={props.productImage2} className="d-block w-100 rounded-3" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="/src/assets/img/HomeBlackShoe.png" className="d-block w-100 rounded-3" alt="" />
+            <img src={props.productImage3} className="d-block w-100 rounded-3" alt="" />
           </div>
         </div>
         <button

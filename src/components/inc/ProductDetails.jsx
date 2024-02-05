@@ -1,6 +1,7 @@
 import React from 'react';
 import Counter from './Counter';
 import ImageCarousel from './ImageCarousel';
+import Footer from './Footer';
 
 const ProductDetails = (props) => {
     return (
@@ -10,7 +11,10 @@ const ProductDetails = (props) => {
                     <div className="row mx-auto py-5">
                         <div className="col-lg-6">
                             {/* <img className='img-responsive rounded-2 w-100' src="/src/assets/img/HomeBlackShoe.png" alt="" /> */}
-                            <ImageCarousel/>
+                            <ImageCarousel 
+                                productImage1= "/src/assets/img/HomeBlackShoe.png"
+                                productImage2= "/src/assets/img/HomeBuyProduct.png"
+                                productImage3= "/src/assets/img/HomeBlackShoe.png"/>
                         </div>
                         <div className="col-lg-4 text-start">
                             <h1 className="fw-meduim">Home Black Shoe</h1>
@@ -21,7 +25,9 @@ const ProductDetails = (props) => {
                             <div className="row">
                                 <div className="col-lg-12 d-flex">
                                     <Counter/>
-                                    <button className='btn btn-dark text-dark px-4 py-2 rounded-2 bg-peast-greenn addToCartBtn mx-2'>Add to Cart</button>
+                                    <button className='btn btn-dark text-dark px-4 py-2 rounded-2 bg-peast-greenn addToCartBtn mx-2'>
+                                    <p className="text-brown-black my-auto fw-medium">Add to Cart</p>
+                                        </button>
                                     
                                 </div>
                             </div>
@@ -29,6 +35,7 @@ const ProductDetails = (props) => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 };

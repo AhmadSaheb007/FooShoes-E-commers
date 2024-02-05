@@ -14,11 +14,11 @@ const Header = () => {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li className="nav-item px-3">
-                        <a className="nav-link active  text-light" aria-current="page" href="/">Login</a>
+                        <a className="nav-link active  text-light" aria-current="page" href="/login">Login</a>
                         </li>
 
                         <li className="nav-item px-3">
-                        <a className="nav-link  text-light" href="/products">Sign up</a>
+                        <a className="nav-link  text-light" href="/signup">Sign up</a>
                         </li>
                         
                         
