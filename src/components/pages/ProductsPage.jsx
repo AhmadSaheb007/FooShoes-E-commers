@@ -1,8 +1,18 @@
 import React from "react";
-import Header from "./../inc/Header";
-import Product from "./../inc/Product";
 import Banner from './../inc/Banner';
+import Product from './../inc/Product';
+// import myitems from "/src/components/allitems"
 
+// function creatProduct(itemm){
+//   return (
+
+//     <Product 
+//     itemName = {itemm.name}
+//     productImg = {itemm.imgURL} 
+//     price = {itemm.price}/>
+
+//   );
+// }
 
 const ProductsPage = () => {
   return (
@@ -119,6 +129,11 @@ const ProductsPage = () => {
 
       <div className="container">
         <div className="row py-5">
+
+          {/* {myitems.map(creatProduct)} */}
+
+          {/* {myitems.map(creatProduct)} */}
+          
           <div className="col-lg-4">
             <Product
               itemName="Golden Shoe"

@@ -1,5 +1,7 @@
 import React from 'react';
 import { CiMenuKebab } from "react-icons/ci";
+import { BrowserRouter, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 const Header = () => {
     return (
         <div className='bg-brown-black'>
@@ -14,7 +16,7 @@ const Header = () => {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li className="nav-item px-3">
-                        <a className="nav-link active  text-light" aria-current="page" href="/login">Login</a>
+                            <Link className="nav-link active text-light" to="/login">Login</Link>
                         </li>
 
                         <li className="nav-item px-3">
