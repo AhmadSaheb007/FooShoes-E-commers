@@ -26,9 +26,9 @@ const Counter = () => {
       <div className="col-lg-12">
         <div>
           <div className="d-flex">
-            <button className="btn cart-button text-light fs-2 fw-medium border-2 border-light" onClick={handleClick1}>+</button>
+          <button className="btn pb-2 cart-button text-light fs-1 fw-medium" onClick={handleClick2}>-</button>
             <div className="mx-3 py-4 fs-4">{counter}</div>
-            <button className="btn pb-2 cart-button text-light fs-1 fw-medium border-2 border-light" onClick={handleClick2}>-</button>
+            <button className="btn cart-button text-light fs-2 fw-medium" onClick={handleClick1}>+</button>
           </div>
         </div>
       </div>

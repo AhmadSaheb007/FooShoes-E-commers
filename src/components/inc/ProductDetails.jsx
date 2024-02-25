@@ -27,8 +27,7 @@ const ProductDetails = (props) => {
                                     <Counter/>
                                     <button className='btn btn-dark text-dark px-4 py-2 rounded-2 bg-peast-greenn addToCartBtn mx-2'>
                                     <p className="text-brown-black my-auto fw-medium">Add to Cart</p>
-                                        </button>
-                                    
+                                    </button>
                                 </div>
                             </div>
                         </div>

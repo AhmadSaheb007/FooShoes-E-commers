@@ -1,9 +1,9 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { FcLike } from "react-icons/fc";
 import { MdOutlineReviews } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Product = (props) => {
   return (
@@ -13,7 +13,7 @@ const Product = (props) => {
         <div className="bg-frosted product-icon my-3">
           <div className="row d-flex justify-content-between">
             <div className="col-lg-2 py-2"> 
-              <a href="/productDetails"><FaEye className="text-light fs-3" /></a>
+              <Link to="/details"><FaEye className="text-light fs-3" /></Link>
             </div>
 
             <div className="col-lg-2 py-2"> 

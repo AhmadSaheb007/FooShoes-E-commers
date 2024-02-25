@@ -9,7 +9,8 @@ import About from './../pages/About';
 import Contact from './../pages/Contact';
 import Header from './Header';
 import Signup from './../pages/Signup';
-
+import { IoMdCart } from "react-icons/io";
+import Cart from './../pages/Cart';
 
 function Navber() {
   return (
@@ -55,6 +56,13 @@ function Navber() {
                     <Link className="nav-link" to="/contact">Contact</Link>
                   </li>
                 </ul>
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <Link className="nav-link text-dark" to="/cart"><IoMdCart className="fs-3 me-2" /></Link>
+                  </li>
+                </ul>
+                
+                
               </div>
             </div>
           </nav>
@@ -67,6 +75,7 @@ function Navber() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </div>
